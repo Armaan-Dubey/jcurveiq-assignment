@@ -2,8 +2,9 @@ JcurveIQ — Frontend Developer Assignment
 
 Submitted by: Armaan Dubey
 
-A responsive, accessible React + Vite + TypeScript application built from the official JcurveIQ Figma design.
-This project replicates a modern AI-powered equity research workspace with an interactive UI, state management, and accessibility best practices.
+This project was built as part of the JcurveIQ Frontend Developer assignment.  
+It recreates a modern AI-powered equity research workspace from a provided Figma design.  
+The goal was to implement responsive design, accessibility, reusable components, and clean Redux-based state management.
 
 Tech Stack:
 React (v18) + Vite + TypeScript
@@ -11,8 +12,6 @@ Tailwind CSS — utility-first styling
 Redux Toolkit + RTK Query — state & API management
 Framer Motion — UI animations
 Axios + OpenAI API — AI assistant integration
-
-Vercel — deployment
 
 Features Implemented:
 Responsive layout (Desktop + Mobile)
@@ -24,18 +23,54 @@ Animated sidebar toggle (Framer Motion)
 Bonus: AI Chat Sidebar powered by GPT-4o API
 
 Folder Structure:
-src/
- ├── components/
- │    ├── SidebarLeft.tsx
- │    ├── SidebarRight.tsx
- │    ├── WorkspaceMiddle.tsx
- │    └── MainLayout.tsx
- ├── store/
- │    ├── store.ts
- │    └── apiSlice.ts
- ├── App.tsx
- ├── main.tsx
- └── index.css
+├── public/
+│   ├── projects.json
+│   └── vite.svg
+│
+├── Screenshot/
+│   ├── Desktop-view.png
+│   ├── Mobile-collapsed.png
+│   ├── Mobile-Sidebar-open.png
+│   ├── Loading-state.png
+│   ├── Error-state.png
+│   └── Empty-state.png
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── SidebarLeft.tsx
+│   │   ├── SidebarRight.tsx
+│   │   ├── SidebarToggle.tsx
+│   │   └── WorkspaceMiddle.tsx
+│   │
+│   ├── layout/
+│   │   └── MainLayout.tsx
+│   │
+│   ├── store/
+│   │   ├── apiSlice.ts
+│   │   ├── store.ts
+│   │   └── uiSlice.ts
+│   │
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+│
+├── .env
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+└── README.md
+
+
 
 How to Run Locally:
 # Clone the repo
@@ -52,7 +87,7 @@ npm run dev
 Then visit http://localhost:5173
 
 How to Toggle Mock States:
-## 🔄 Mock API States
+## Mock API States
 The `apiSlice.ts` file under `/src/store/` simulates loading, success, and error states for projects.
 
 You can toggle between states by editing the mock data:
