@@ -102,25 +102,25 @@ You can manually toggle states by editing `apiSlice.ts`:
 # Screenshots & UI States
 
 ## Desktop View
-[Desktop View](research-workspace/Screenshot/Desktop-view.png)
+[Desktop View](Screenshot/Desktop-view.png)
 
 ## Mobile collapsed
-[Mobile View](research-workspace/Screenshot/Mobile-collapsed.png)
+[Mobile View](Screenshot/Mobile-collapsed.png)
 > The right assistant sidebar is intentionally hidden on mobile for a cleaner user experience.
 > It becomes visible on larger screens (lg breakpoint and above).
 
 
 ## Mobile Sidebar open
-[mobile sidebar view](research-workspace/Screenshot/Mobile-Sidebar-open.png)
+[mobile sidebar view](Screenshot/Mobile-Sidebar-open.png)
 
 ## Loading State
-[Loading State](research-workspace/Screenshot/Loading-state.png)
+[Loading State](Screenshot/Loading-state.png)
 
 ## Error State
-[Error State](research-workspace/Screenshot/Error-state.png)
+[Error State](Screenshot/Error-state.png)
 
 ## Empty State
-[Empty State](research-workspace/Screenshot/Empty-state.png)
+[Empty State](Screenshot/Empty-state.png)
 
 # JcurveIQ Frontend Assignment
 
