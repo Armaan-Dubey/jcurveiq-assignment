@@ -124,7 +124,7 @@ You can manually toggle states by editing `apiSlice.ts`:
 
 # JcurveIQ Frontend Assignment
 
-**Live Demo:** [https://jcurveiq-assignment.vercel.app](https://jcurveiq-assignment.vercel.app)
+**Live Demo:** [https://jcurveiq-assignment-j65q-34s3foek9-armaan-dubeys-projects.vercel.app]
 
 
 
