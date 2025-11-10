@@ -72,56 +72,57 @@ Folder Structure:
 
 
 
-How to Run Locally:
-# Clone the repo
+# How to Run Locally:
+## Clone the repo
 git clone https://github.com/armaandubey/research-workspace.git
 
-# Navigate into the folder
+## Navigate into the folder
 cd research-workspace
 
-# Install dependencies
+## Install dependencies
 npm install
 
-# Start the app
+## Start the app
 npm run dev
 Then visit http://localhost:5173
 
-How to Toggle Mock States:
+#How to Toggle Mock States:
 ## Mock API States
-The `apiSlice.ts` file under `/src/store/` simulates loading, success, and error states for projects.
+The `/src/store/apiSlice.ts` file includes mock API logic that simulates different data states for testing.
+You can manually toggle states by editing `apiSlice.ts`:
+- **Loading State:** Simulated automatically when data is being fetched.
+- **Error State:** Uncomment or add a line like  
+  `throw new Error("Failed to load projects");`
+- **Empty State:** Return an empty array instead of project data.
+- **Success State:** Default behavior (returns project data from `projects.json`).
 
-You can toggle between states by editing the mock data:
-
-```ts
-// Example in apiSlice.ts
-if (Math.random() < 0.2) throw new Error("Failed to load projects");
-  known gaps & tradeoffs
+ # known gaps & tradeoffs
 - Used mock API data instead of live backend for simplicity.
 - Minimal testing coverage (only manual validation).
 - Limited Storybook components (not required, optional).
 - OpenAI integration included as an enhancement, not part of the core brief.
 
-Screenshots & UI States
+# Screenshots & UI States
 
-Desktop View
+## Desktop View
 [Desktop View](research-workspace/Screenshot/Desktop-view.png)
 
-Mobile collapsed
+## Mobile collapsed
 [Mobile View](research-workspace/Screenshot/Mobile-collapsed.png)
 > The right assistant sidebar is intentionally hidden on mobile for a cleaner user experience.
 > It becomes visible on larger screens (lg breakpoint and above).
 
 
-Mobile Sidebar open
+## Mobile Sidebar open
 [mobile sidebar view](research-workspace/Screenshot/Mobile-Sidebar-open.png)
 
-Loading State
+## Loading State
 [Loading State](research-workspace/Screenshot/Loading-state.png)
 
-Error State
+## Error State
 [Error State](research-workspace/Screenshot/Error-state.png)
 
-Empty State
+## Empty State
 [Empty State](research-workspace/Screenshot/Empty-state.png)
 
 # JcurveIQ Frontend Assignment
