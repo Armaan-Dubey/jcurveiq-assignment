@@ -73,6 +73,9 @@ Desktop View
 
 Mobile collapsed
 [Mobile View](research-workspace/Screenshot/Mobile-collapsed.png)
+> The right assistant sidebar is intentionally hidden on mobile for a cleaner user experience.
+> It becomes visible on larger screens (lg breakpoint and above).
+
 
 Mobile Sidebar open
 [mobile sidebar view](research-workspace/Screenshot/Mobile-Sidebar-open.png)
@@ -85,6 +88,11 @@ Error State
 
 Empty State
 [Empty State](research-workspace/Screenshot/Empty-state.png)
+
+# JcurveIQ Frontend Assignment
+
+**Live Demo:** [https://jcurveiq-assignment.vercel.app](https://jcurveiq-assignment.vercel.app)
+
 
 
 
