@@ -1,7 +1,11 @@
-JcurveIQ — Frontend Developer Assignment
+# JcurveIQ — Frontend Developer Assignment  
+Submitted by: Armaan Dubey  
 
+<<<<<<< HEAD
 Submitted by: Armaan Dubey
 
+=======
+>>>>>>> fa7b07f (Updated file paths and fixed project structure)
 This project was built as part of the JcurveIQ Frontend Developer assignment.  
 It recreates a modern AI-powered equity research workspace from a provided Figma design.  
 The goal was to implement responsive design, accessibility, reusable components, and clean Redux-based state management.
@@ -22,7 +26,11 @@ Mock API for projects with loading / error / empty states
 Animated sidebar toggle (Framer Motion)
 Bonus: AI Chat Sidebar powered by GPT-4o API
 
+<<<<<<< HEAD
 Folder Structure:
+=======
+research-workspace/
+>>>>>>> fa7b07f (Updated file paths and fixed project structure)
 ├── public/
 │   ├── projects.json
 │   └── vite.svg
@@ -69,6 +77,10 @@ Folder Structure:
 ├── tsconfig.node.json
 ├── vite.config.ts
 └── README.md
+<<<<<<< HEAD
+=======
+
+>>>>>>> fa7b07f (Updated file paths and fixed project structure)
 
 
 
