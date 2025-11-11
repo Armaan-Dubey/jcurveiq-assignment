@@ -122,6 +122,9 @@ I used a mock JSON source with RTK Query instead of a backend to focus time on U
 
 **Live Demo:** [https://jcurveiq-assignment-j65q-34s3foek9-armaan-dubeys-projects.vercel.app]
 
+# Disclosure:
+I built the entire project myself. I used AI assistance only for troubleshooting setup errors and improving code efficiency, ensuring that all final implementations were fully understood and written by me.
+
 
 
 
