@@ -94,11 +94,7 @@ You can manually toggle states by editing `apiSlice.ts`:
 - **Success State:** Default behavior (returns project data from `projects.json`).
 
  # known gaps & tradeoffs
-- Used mock API data instead of live backend for simplicity.
-- Minimal testing coverage (only manual validation).
-- Limited Storybook components (not required, optional).
-- OpenAI integration included as an enhancement, not part of the core brief.
-
+I used a mock JSON source with RTK Query instead of a backend to focus time on UI, state design, and accessibility. I prioritized one polished motion (mobile sidebar) over multiple animations to keep performance and complexity low. Styling uses Tailwind tokens mapped from the design; small spacing/opacity deviations remain. Testing and Storybook are minimal due to time (manual verification + screenshots), but the structure (RTK Query, slices, ProjectCard-style composition) is ready for expansion. I chose Redux Toolkit for clarity between UI state and server state even though the data set is small.
 # Screenshots & UI States
 
 ## Desktop View
